@@ -1,0 +1,114 @@
+Date : 2026-11-10 12:56:29
+Directory : d:\marran
+Total : 68 files,  11046 codes, 1319 comments, 1584 blanks, all 13949 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Haskell  |         27 |     10,136 |        955 |      1,467 |     12,558 |
+| lean4    |          3 |        322 |          4 |         56 |        382 |
+| Mårran   |         22 |        149 |        284 |         17 |        450 |
+| Cabal    |          1 |        136 |          3 |          7 |        146 |
+| YAML     |          5 |        111 |         73 |         19 |        203 |
+| JSON     |          2 |         97 |          0 |          1 |         98 |
+| Markdown |          5 |         45 |          0 |         13 |         58 |
+| CSV      |          2 |         42 |          0 |          2 |         44 |
+| TOML     |          1 |          8 |          0 |          2 |         10 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                          |         68 |     11,046 |      1,319 |      1,584 |     13,949 |
+| . (Files)                                                  |         11 |        309 |         76 |         35 |        420 |
+| app                                                        |         24 |        215 |        309 |         24 |        548 |
+| app (Files)                                                |          9 |        150 |        208 |         16 |        374 |
+| app\marr                                                   |         15 |         65 |        101 |          8 |        174 |
+| dist-newstyle                                              |          1 |          1 |          0 |          0 |          1 |
+| dist-newstyle\cache                                        |          1 |          1 |          0 |          0 |          1 |
+| prover                                                     |          7 |        438 |          4 |         63 |        505 |
+| prover\marr                                                |          7 |        438 |          4 |         63 |        505 |
+| prover\marr (Files)                                        |          5 |        109 |          2 |          6 |        117 |
+| prover\marr\.github                                        |          1 |         11 |          0 |          4 |         15 |
+| prover\marr\.github\workflows                              |          1 |         11 |          0 |          4 |         15 |
+| prover\marr\Marr                                           |          1 |        318 |          2 |         53 |        373 |
+| src                                                        |         21 |      8,168 |        804 |      1,174 |     10,146 |
+| test                                                       |          4 |      1,915 |        126 |        288 |      2,329 |
++------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                   | language | code       | comment    | blank      | total      |
++------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\marran\CHANGELOG.md                                     | Markdown |          7 |          0 |          5 |         12 |
+| d:\marran\Marran.cabal                                     | Cabal    |        136 |          3 |          7 |        146 |
+| d:\marran\README.md                                        | Markdown |         10 |          0 |          5 |         15 |
+| d:\marran\Setup.hs                                         | Haskell  |          2 |          0 |          1 |          3 |
+| d:\marran\app\Main.hs                                      | Haskell  |         51 |         25 |          4 |         80 |
+| d:\marran\app\guess.marr                                   | Mårran   |         26 |          0 |          5 |         31 |
+| d:\marran\app\infer.marr                                   | Mårran   |          1 |          0 |          0 |          1 |
+| d:\marran\app\main.marr                                    | Mårran   |         28 |          0 |          4 |         32 |
+| d:\marran\app\main_ec.marr                                 | Mårran   |          1 |          0 |          0 |          1 |
+| d:\marran\app\main_el.marr                                 | Mårran   |          4 |          0 |          0 |          4 |
+| d:\marran\app\main_ic.marr                                 | Mårran   |          2 |          0 |          0 |          2 |
+| d:\marran\app\marr\README.md                               | Markdown |         15 |          0 |          3 |         18 |
+| d:\marran\app\marr\compare.marr                            | Mårran   |          1 |          7 |          0 |          8 |
+| d:\marran\app\marr\counter.marr                            | Mårran   |          1 |          8 |          0 |          9 |
+| d:\marran\app\marr\gene.marr                               | Mårran   |          4 |          0 |          0 |          4 |
+| d:\marran\app\marr\handle_while.marr                       | Mårran   |         34 |          0 |          5 |         39 |
+| d:\marran\app\marr\imm_make.marr                           | Mårran   |          1 |          8 |          0 |          9 |
+| d:\marran\app\marr\imm_needs_read.marr                     | Mårran   |          1 |         10 |          0 |         11 |
+| d:\marran\app\marr\imm_recursion.marr                      | Mårran   |          1 |          7 |          0 |          8 |
+| d:\marran\app\marr\imm_snapshot.marr                       | Mårran   |          1 |          6 |          0 |          7 |
+| d:\marran\app\marr\param_reentrancy.marr                   | Mårran   |          1 |          6 |          0 |          7 |
+| d:\marran\app\marr\random_range.marr                       | Mårran   |          1 |          4 |          0 |          5 |
+| d:\marran\app\marr\rebind_shared.marr                      | Mårran   |          1 |          7 |          0 |          8 |
+| d:\marran\app\marr\row_poly.marr                           | Mårran   |          1 |         10 |          0 |         11 |
+| d:\marran\app\marr\scoping.marr                            | Mårran   |          1 |          9 |          0 |         10 |
+| d:\marran\app\marr\under.marr                              | Mårran   |          1 |         19 |          0 |         20 |
+| d:\marran\app\modules.marr                                 | Mårran   |         11 |         35 |          2 |         48 |
+| d:\marran\app\std.marr                                     | Mårran   |         26 |        148 |          1 |        175 |
+| d:\marran\bench.csv                                        | CSV      |         25 |          0 |          1 |         26 |
+| d:\marran\bench_edges.csv                                  | CSV      |         17 |          0 |          1 |         18 |
+| d:\marran\dist-newstyle\cache\plan.json                    | JSON     |          1 |          0 |          0 |          1 |
+| d:\marran\hie.yaml                                         | YAML     |          2 |          0 |          0 |          2 |
+| d:\marran\package.yaml                                     | YAML     |         87 |          6 |          8 |        101 |
+| d:\marran\prover\marr\.github\workflows\lean_action_ci.yml | YAML     |         11 |          0 |          4 |         15 |
+| d:\marran\prover\marr\Main.lean                            | lean4    |          3 |          0 |          2 |          5 |
+| d:\marran\prover\marr\Marr.lean                            | lean4    |          1 |          2 |          1 |          4 |
+| d:\marran\prover\marr\Marr\Basic.lean                      | lean4    |        318 |          2 |         53 |        373 |
+| d:\marran\prover\marr\README.md                            | Markdown |          1 |          0 |          0 |          1 |
+| d:\marran\prover\marr\lake-manifest.json                   | JSON     |         96 |          0 |          1 |         97 |
+| d:\marran\prover\marr\lakefile.toml                        | TOML     |          8 |          0 |          2 |         10 |
+| d:\marran\src\Ast.hs                                       | Haskell  |        430 |         40 |         99 |        569 |
+| d:\marran\src\Benchmark.hs                                 | Haskell  |        370 |        136 |         85 |        591 |
+| d:\marran\src\Config.hs                                    | Haskell  |        267 |        150 |         32 |        449 |
+| d:\marran\src\Eff.hs                                       | Haskell  |         89 |          4 |         18 |        111 |
+| d:\marran\src\Elaborator.hs                                | Haskell  |        644 |         42 |         65 |        751 |
+| d:\marran\src\ErrorContext.hs                              | Haskell  |         92 |         16 |         20 |        128 |
+| d:\marran\src\Infer.hs                                     | Haskell  |      1,163 |        105 |        182 |      1,450 |
+| d:\marran\src\IntInterpreter.hs                            | Haskell  |      1,200 |         82 |        116 |      1,398 |
+| d:\marran\src\Interpreter.hs                               | Haskell  |      1,198 |         76 |        122 |      1,396 |
+| d:\marran\src\Lexer.hs                                     | Haskell  |        287 |          3 |         54 |        344 |
+| d:\marran\src\Lib.hs                                       | Haskell  |          5 |          0 |          2 |          7 |
+| d:\marran\src\Occurs.hs                                    | Haskell  |         46 |          1 |          6 |         53 |
+| d:\marran\src\Parser.hs                                    | Haskell  |        675 |         69 |        107 |        851 |
+| d:\marran\src\Record.hs                                    | Haskell  |         26 |          0 |          7 |         33 |
+| d:\marran\src\Resume.hs                                    | Haskell  |         13 |          1 |          5 |         19 |
+| d:\marran\src\Scope.hs                                     | Haskell  |        228 |          6 |         33 |        267 |
+| d:\marran\src\Sexp.hs                                      | Haskell  |         40 |          4 |          9 |         53 |
+| d:\marran\src\TypedIR.hs                                   | Haskell  |        283 |         15 |         34 |        332 |
+| d:\marran\src\Types.hs                                     | Haskell  |        422 |         24 |         78 |        524 |
+| d:\marran\src\Unify.hs                                     | Haskell  |        620 |         28 |         82 |        730 |
+| d:\marran\src\Utils.hs                                     | Haskell  |         70 |          2 |         18 |         90 |
+| d:\marran\stack.yaml                                       | YAML     |          4 |         63 |          5 |         72 |
+| d:\marran\stack.yaml.lock                                  | YAML     |          7 |          4 |          2 |         13 |
+| d:\marran\test\FreezeSpec.hs                               | Haskell  |        296 |          5 |         44 |        345 |
+| d:\marran\test\GeneralizeSpec.hs                           | Haskell  |        317 |         92 |         46 |        455 |
+| d:\marran\test\Spec.hs                                     | Haskell  |         10 |          0 |          2 |         12 |
+| d:\marran\test\UnifySpec.hs                                | Haskell  |      1,292 |         29 |        196 |      1,517 |
+| d:\marran\todo.md                                          | Markdown |         12 |          0 |          0 |         12 |
+| Total                                                      |          |     11,046 |      1,319 |      1,584 |     13,949 |
++------------------------------------------------------------+----------+------------+------------+------------+------------+

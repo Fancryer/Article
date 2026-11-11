@@ -1,0 +1,42 @@
+Date : 2026-06-14 23:53:35
+Directory : /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src
+Total : 18 files,  4393 codes, 320 comments, 671 blanks, all 5384 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Haskell  |         18 |      4,393 |        320 |        671 |      5,384 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                               | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                  |         18 |      4,393 |        320 |        671 |      5,384 |
++------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                           | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Ast.hs         | Haskell  |        437 |         23 |         96 |        556 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Debug.hs       | Haskell  |          9 |         55 |          3 |         67 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Eff.hs         | Haskell  |        112 |          2 |         21 |        135 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Elaborator.hs  | Haskell  |        586 |          6 |         64 |        656 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Infer.hs       | Haskell  |        715 |         56 |         88 |        859 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Interpreter.hs | Haskell  |        146 |         14 |         17 |        177 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Lexer.hs       | Haskell  |        290 |          0 |         54 |        344 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Lib.hs         | Haskell  |          5 |          0 |          2 |          7 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Occurs.hs      | Haskell  |         47 |          0 |          6 |         53 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Parser.hs      | Haskell  |        639 |         72 |        106 |        817 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Record.hs      | Haskell  |         26 |          0 |          7 |         33 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Resume.hs      | Haskell  |         15 |          2 |          6 |         23 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Scope.hs       | Haskell  |        173 |         18 |         23 |        214 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Sexp.hs        | Haskell  |         44 |          0 |          9 |         53 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/TypedIR.hs     | Haskell  |        253 |         49 |         36 |        338 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Types.hs       | Haskell  |        386 |          9 |         68 |        463 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Unify.hs       | Haskell  |        443 |         14 |         48 |        505 |
+| /mnt/c/Users/Alice Liddell/Documents/projects/haskellets/marran/src/Utils.hs       | Haskell  |         67 |          0 |         17 |         84 |
+| Total                                                                              |          |      4,393 |        320 |        671 |      5,384 |
++------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
